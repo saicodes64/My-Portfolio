@@ -9,6 +9,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import BitsBg from './components/BitsBg'
 
 const SECTIONS = ['home', 'about', 'education', 'experience', 'projects', 'contact']
 
@@ -46,6 +47,7 @@ export default function App() {
         <>
             <LoadingScreen />
             <BgAnimation />
+            <BitsBg />
             <Navbar activeSection={activeSection} onNavigate={navigateTo} />
 
             <div style={{ paddingTop: '76px' }}>
