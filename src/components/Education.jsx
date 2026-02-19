@@ -7,7 +7,7 @@ const educationData = [
         badgeClass: 'current',
         grade: 'CGPA: 8.87 / 10.0',
         gradeWidth: '88.7%',
-        duration: '2022 – 2026',
+        duration: '2022 – 2027',
         status: 'Ongoing',
         statusClass: 'text-primary-cyan',
         coreSubjects: 'Data Structures & Algorithms, Computer Networks, Cloud Computing, Software Testing',
@@ -127,7 +127,7 @@ export default function Education() {
                                 <div className="col-md-4 text-center">
                                     <div className="academic-stat">
                                         <i className="fas fa-graduation-cap text-primary-cyan fa-2x mb-2"></i>
-                                        <h5 className="text-neon-cyan">2026</h5>
+                                        <h5 className="text-neon-cyan">2027</h5>
                                         <p>Expected Graduation</p>
                                     </div>
                                 </div>

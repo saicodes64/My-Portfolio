@@ -39,12 +39,12 @@ const headlineStats = [
     { value: 1003, suffix: '+', label: 'Hours Tracked', icon: 'fa-clock' },
     { value: 4, suffix: '', label: 'Focus Domains', icon: 'fa-bullseye' },
     { value: 9.0, suffix: '', label: 'Avg SGPA', icon: 'fa-graduation-cap', decimals: 2 },
-    { value: 300, suffix: '+', label: 'DSA Problems', icon: 'fa-code' },
+    { value: 200, suffix: '+', label: 'DSA Problems', icon: 'fa-code' },
 ]
 
 const effortBars = [
-    { label: 'Academics (Jan-Dec)', hours: 443, color: '#00f5ff', icon: 'fa-book' },
     { label: 'Web Development (May - Dec)', hours: 360, color: '#00d4ff', icon: 'fa-laptop-code' },
+    { label: 'Academics (Jan-Dec)', hours: 443, color: '#00f5ff', icon: 'fa-book' },
     { label: 'DSA', hours: 170, color: '#0066cc', icon: 'fa-project-diagram' },
     { label: 'Aptitude', hours: 30, color: '#003d7a', icon: 'fa-brain' },
 ]

@@ -540,11 +540,6 @@ body {
     border: 1px solid var(--primary-cyan);
 }
 
-.qualification-badge.current {
-    background: linear-gradient(45deg, var(--primary-cyan), var(--neon-cyan));
-    animation: glow-badge 2s ease-in-out infinite alternate;
-}
-
 @keyframes glow-badge {
     from {
         box-shadow: 0 0 5px var(--primary-cyan);
