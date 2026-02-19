@@ -14,7 +14,7 @@ const projects = [
             'Deployed on AWS EC2 (Ubuntu) with Nginx reverse proxy and GitHub Actions CI/CD.',
         ],
         techStack: ['Node.js', 'Express.js', 'MongoDB', 'React', 'Redis', 'SendGrid', 'OAuth 2.0', 'AWS EC2', 'Nginx', 'GitHub Actions'],
-        link: null,
+        link: 'https://www.kaizentracker.in',
         linkLabel: 'Live Project',
         linkIcon: 'fas fa-external-link-alt',
         disabled: false,

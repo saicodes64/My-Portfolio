@@ -79,7 +79,7 @@ export default function Education() {
                                                         {row.qualification}
                                                     </span>
                                                     <br />
-                                                    <small className="text-muted">{row.sub}</small>
+                                                    <small className="text-zinc-600">{row.sub}</small>
                                                     {row.coreSubjects && (
                                                         <>
                                                             <br />

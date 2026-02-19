@@ -60,7 +60,7 @@ export default function Home({ onNavigate }) {
                             <p className="subtitle" ref={subtitleRef}></p>
                             <p className="lead">
                                 Full-stack developer specializing in MERN stack and AWS. Building scalable web systems,
-                                secure APIs, and cloud-native applications — with 300+ DSA problems solved.
+                                secure APIs, and cloud-native applications with 200+ DSA problems solved.
                             </p>
                             <div className="mt-4">
                                 <a
@@ -71,11 +71,12 @@ export default function Home({ onNavigate }) {
                                     <i className="fas fa-rocket me-2"></i>View Projects
                                 </a>
                                 <a
-                                    href="#contact"
-                                    className="cyber-btn"
-                                    onClick={(e) => { e.preventDefault(); onNavigate('contact') }}
+                                    href="https://drive.google.com/file/d/1HzLz2mPB7a2t05-EoPjmjo9Ho9bN5b4g/view?usp=drivesdk"
+                                    className="cyber-btn me-3"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
-                                    <i className="fas fa-envelope me-2"></i>Get In Touch
+                                    <i className="fas fa-envelope me-2"></i>My Resume
                                 </a>
                             </div>
                             <div className="social-links mt-4">

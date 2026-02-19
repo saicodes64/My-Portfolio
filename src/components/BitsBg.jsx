@@ -1,4 +1,4 @@
-import FloatingLines from './FloatingLines'
+import LightPillar from './LightPillar'
 
 function BitsBg() {
   return (
@@ -10,18 +10,21 @@ function BitsBg() {
         top: 0,
         left: 0,
         zIndex: -1,
-        opacity: 0.14,
       }}
     >
-      <FloatingLines
-        linesGradient={["#00c7fc", "#2F4BC0", "#E945F5"]}
-        animationSpeed={1}
-        interactive
-        bendRadius={5}
-        bendStrength={-0.5}
-        mouseDamping={0.05}
-        parallax
-        parallaxStrength={0.2}
+      <LightPillar
+        topColor="#00c7fc"
+        bottomColor="#7b219f"
+        intensity={0.5}
+        rotationSpeed={0.3}
+        glowAmount={0.002}
+        pillarWidth={3.5}
+        pillarHeight={0.5}
+        noiseIntensity={0.5}
+        pillarRotation={25}
+        interactive={false}
+        mixBlendMode="screen"
+        quality="high"
       />
     </div>
   )

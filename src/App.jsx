@@ -46,8 +46,8 @@ export default function App() {
     return (
         <>
             <LoadingScreen />
-            <BgAnimation />
-            <BitsBg />
+            {/* <BitsBg /> */}
+            <BgAnimation/>
             <Navbar activeSection={activeSection} onNavigate={navigateTo} />
 
             <div style={{ paddingTop: '76px' }}>
